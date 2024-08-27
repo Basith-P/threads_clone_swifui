@@ -12,7 +12,7 @@ struct AppTabView: View {
     
     var body: some View {
         TabView(selection: $selectedIndex) {
-            Text("Feed")
+            FeedView()
                 .tabItem {
                     Image(systemName: "house")
                         .environment(\.symbolVariants, selectedIndex == 0 ? .fill : .none)
@@ -20,26 +20,26 @@ struct AppTabView: View {
                 .onAppear { selectedIndex = 0}
                 .tag(0)
             
-            Text("Explore")
+            ExploreView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
                 .onAppear { selectedIndex = 1}
                 .tag(1)
-            Text("Upload")
+            ThreadCreationView()
                 .tabItem {
                     Image(systemName: "plus")
                 }
                 .onAppear { selectedIndex = 2}
                 .tag(2)
-            Text("Activity")
+            ActivityView()
                 .tabItem {
                     Image(systemName: "heart")
                         .environment(\.symbolVariants, selectedIndex == 3 ? .fill : .none)
                 }
                 .onAppear { selectedIndex = 3}
                 .tag(3)
-            Text("Profile")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person")
                         .environment(\.symbolVariants, selectedIndex == 4 ? .fill : .none)

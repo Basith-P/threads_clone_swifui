@@ -16,6 +16,11 @@
 		72791A862C7D706100F915EE /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A852C7D706100F915EE /* TextFieldModifier.swift */; };
 		72791A882C7D717F00F915EE /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A872C7D717F00F915EE /* ButtonModifier.swift */; };
 		72791A8B2C7D7B3000F915EE /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A8A2C7D7B3000F915EE /* AppTabView.swift */; };
+		72791A902C7D800900F915EE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A8F2C7D800900F915EE /* ExploreView.swift */; };
+		72791A932C7D802D00F915EE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A922C7D802D00F915EE /* FeedView.swift */; };
+		72791A972C7D80A100F915EE /* ThreadCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A962C7D80A100F915EE /* ThreadCreationView.swift */; };
+		72791A9B2C7D80C600F915EE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A9A2C7D80C600F915EE /* ActivityView.swift */; };
+		72791A9F2C7D80E400F915EE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A9E2C7D80E400F915EE /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		72791A852C7D706100F915EE /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
 		72791A872C7D717F00F915EE /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		72791A8A2C7D7B3000F915EE /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		72791A8F2C7D800900F915EE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		72791A922C7D802D00F915EE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		72791A962C7D80A100F915EE /* ThreadCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCreationView.swift; sourceTree = "<group>"; };
+		72791A9A2C7D80C600F915EE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		72791A9E2C7D80E400F915EE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +102,14 @@
 		72791A782C7D680F00F915EE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				72791A7D2C7D685D00F915EE /* Auth */,
+				72791A982C7D80B500F915EE /* Activity */,
 				72791A892C7D7B0700F915EE /* AppTabView */,
+				72791A7D2C7D685D00F915EE /* Auth */,
 				72791A8D2C7D7FB400F915EE /* Explore */,
 				72791A8C2C7D7F8400F915EE /* Feed */,
+				72791A9C2C7D80D000F915EE /* Profile */,
 				72791A7E2C7D686100F915EE /* Root */,
+				72791A942C7D807C00F915EE /* ThreadCreation */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -175,6 +188,7 @@
 		72791A8C2C7D7F8400F915EE /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				72791A912C7D801C00F915EE /* Views */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -182,8 +196,73 @@
 		72791A8D2C7D7FB400F915EE /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				72791A8E2C7D800200F915EE /* View */,
 			);
 			path = Explore;
+			sourceTree = "<group>";
+		};
+		72791A8E2C7D800200F915EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72791A8F2C7D800900F915EE /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72791A912C7D801C00F915EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72791A922C7D802D00F915EE /* FeedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72791A942C7D807C00F915EE /* ThreadCreation */ = {
+			isa = PBXGroup;
+			children = (
+				72791A952C7D809000F915EE /* Views */,
+			);
+			path = ThreadCreation;
+			sourceTree = "<group>";
+		};
+		72791A952C7D809000F915EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72791A962C7D80A100F915EE /* ThreadCreationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72791A982C7D80B500F915EE /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				72791A992C7D80B900F915EE /* Views */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		72791A992C7D80B900F915EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72791A9A2C7D80C600F915EE /* ActivityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72791A9C2C7D80D000F915EE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				72791A9D2C7D80D300F915EE /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		72791A9D2C7D80D300F915EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72791A9E2C7D80E400F915EE /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,13 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72791A9B2C7D80C600F915EE /* ActivityView.swift in Sources */,
 				72791A882C7D717F00F915EE /* ButtonModifier.swift in Sources */,
+				72791A932C7D802D00F915EE /* FeedView.swift in Sources */,
 				72791A812C7D68CC00F915EE /* LoginView.swift in Sources */,
+				72791A9F2C7D80E400F915EE /* ProfileView.swift in Sources */,
 				72791A862C7D706100F915EE /* TextFieldModifier.swift in Sources */,
 				72791A6C2C7D67D300F915EE /* ContentView.swift in Sources */,
 				72791A8B2C7D7B3000F915EE /* AppTabView.swift in Sources */,
 				72791A6A2C7D67D300F915EE /* ThreadsCloneApp.swift in Sources */,
+				72791A902C7D800900F915EE /* ExploreView.swift in Sources */,
 				72791A832C7D6EB700F915EE /* RegistrationView.swift in Sources */,
+				72791A972C7D80A100F915EE /* ThreadCreationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
