@@ -38,7 +38,7 @@ struct RegistrationView: View {
                 
             } label: {
                 Text("Sign Up")
-                    .modifier(PrimaryButtonModifer())
+                    .primaryButtomStyle()
             }
             Spacer()
             

@@ -43,7 +43,7 @@ struct LoginView: View {
                     
                 } label: {
                     Text("Log In")
-                        .modifier(PrimaryButtonModifer())
+                        .primaryButtomStyle()
                 }
                 Spacer()
                 

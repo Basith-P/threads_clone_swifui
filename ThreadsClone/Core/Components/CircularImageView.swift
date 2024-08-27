@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct CircularImageView: View {
+    var size: CGFloat = 40
+    
     var body: some View {
         Image("Kakashi")
             .resizable()
             .scaledToFill()
-            .frame(width: 40, height: 40 )
+            .frame(width: size, height: size )
             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
     }
 }
