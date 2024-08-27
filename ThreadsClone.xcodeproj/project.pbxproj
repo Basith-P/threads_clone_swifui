@@ -11,6 +11,7 @@
 		72791A6C2C7D67D300F915EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A6B2C7D67D300F915EE /* ContentView.swift */; };
 		72791A6E2C7D67D400F915EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72791A6D2C7D67D400F915EE /* Assets.xcassets */; };
 		72791A712C7D67D400F915EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72791A702C7D67D400F915EE /* Preview Assets.xcassets */; };
+		72791A812C7D68CC00F915EE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A802C7D68CC00F915EE /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		72791A6B2C7D67D300F915EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		72791A6D2C7D67D400F915EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72791A702C7D67D400F915EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72791A802C7D68CC00F915EE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,12 @@
 		72791A682C7D67D300F915EE /* ThreadsClone */ = {
 			isa = PBXGroup;
 			children = (
-				72791A692C7D67D300F915EE /* ThreadsCloneApp.swift */,
-				72791A6B2C7D67D300F915EE /* ContentView.swift */,
+				72791A7B2C7D682B00F915EE /* Services */,
+				72791A7C2C7D683200F915EE /* Utils */,
+				72791A7A2C7D682800F915EE /* Models */,
+				72791A792C7D681400F915EE /* Extensions */,
+				72791A782C7D680F00F915EE /* Core */,
+				72791A772C7D680300F915EE /* App */,
 				72791A6D2C7D67D400F915EE /* Assets.xcassets */,
 				72791A6F2C7D67D400F915EE /* Preview Content */,
 			);
@@ -65,6 +71,75 @@
 				72791A702C7D67D400F915EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72791A772C7D680300F915EE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72791A692C7D67D300F915EE /* ThreadsCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72791A782C7D680F00F915EE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				72791A7E2C7D686100F915EE /* Root */,
+				72791A7D2C7D685D00F915EE /* Auth */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		72791A792C7D681400F915EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72791A7A2C7D682800F915EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72791A7B2C7D682B00F915EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		72791A7C2C7D683200F915EE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		72791A7D2C7D685D00F915EE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				72791A7F2C7D68AF00F915EE /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		72791A7E2C7D686100F915EE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				72791A6B2C7D67D300F915EE /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		72791A7F2C7D68AF00F915EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72791A802C7D68CC00F915EE /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72791A812C7D68CC00F915EE /* LoginView.swift in Sources */,
 				72791A6C2C7D67D300F915EE /* ContentView.swift in Sources */,
 				72791A6A2C7D67D300F915EE /* ThreadsCloneApp.swift in Sources */,
 			);
