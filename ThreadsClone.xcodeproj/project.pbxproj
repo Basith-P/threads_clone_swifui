@@ -25,6 +25,7 @@
 		72791AA42C7DA59800F915EE /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791AA32C7DA59800F915EE /* CircularImageView.swift */; };
 		72791AA62C7DA62900F915EE /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791AA52C7DA62900F915EE /* UserCellView.swift */; };
 		72791AA92C7DAC5C00F915EE /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791AA82C7DAC5C00F915EE /* ProfileThreadFilter.swift */; };
+		72791AAB2C7DC5F100F915EE /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791AAA2C7DC5F100F915EE /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		72791AA32C7DA59800F915EE /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		72791AA52C7DA62900F915EE /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 		72791AA82C7DAC5C00F915EE /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		72791AAA2C7DC5F100F915EE /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				72791A9E2C7D80E400F915EE /* ProfileView.swift */,
+				72791AAA2C7DC5F100F915EE /* EditProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72791A9B2C7D80C600F915EE /* ActivityView.swift in Sources */,
+				72791AAB2C7DC5F100F915EE /* EditProfileView.swift in Sources */,
 				72791A882C7D717F00F915EE /* ButtonModifier.swift in Sources */,
 				72791A932C7D802D00F915EE /* FeedView.swift in Sources */,
 				72791AA92C7DAC5C00F915EE /* ProfileThreadFilter.swift in Sources */,
