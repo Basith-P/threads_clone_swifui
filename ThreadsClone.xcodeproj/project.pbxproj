@@ -15,6 +15,7 @@
 		72791A832C7D6EB700F915EE /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A822C7D6EB700F915EE /* RegistrationView.swift */; };
 		72791A862C7D706100F915EE /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A852C7D706100F915EE /* TextFieldModifier.swift */; };
 		72791A882C7D717F00F915EE /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A872C7D717F00F915EE /* ButtonModifier.swift */; };
+		72791A8B2C7D7B3000F915EE /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A8A2C7D7B3000F915EE /* AppTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		72791A822C7D6EB700F915EE /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		72791A852C7D706100F915EE /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
 		72791A872C7D717F00F915EE /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		72791A8A2C7D7B3000F915EE /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,12 @@
 		72791A682C7D67D300F915EE /* ThreadsClone */ = {
 			isa = PBXGroup;
 			children = (
+				72791A772C7D680300F915EE /* App */,
+				72791A782C7D680F00F915EE /* Core */,
+				72791A792C7D681400F915EE /* Extensions */,
+				72791A7A2C7D682800F915EE /* Models */,
 				72791A7B2C7D682B00F915EE /* Services */,
 				72791A7C2C7D683200F915EE /* Utils */,
-				72791A7A2C7D682800F915EE /* Models */,
-				72791A792C7D681400F915EE /* Extensions */,
-				72791A782C7D680F00F915EE /* Core */,
-				72791A772C7D680300F915EE /* App */,
 				72791A6D2C7D67D400F915EE /* Assets.xcassets */,
 				72791A6F2C7D67D400F915EE /* Preview Content */,
 			);
@@ -90,8 +92,11 @@
 		72791A782C7D680F00F915EE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				72791A7E2C7D686100F915EE /* Root */,
 				72791A7D2C7D685D00F915EE /* Auth */,
+				72791A892C7D7B0700F915EE /* AppTabView */,
+				72791A8D2C7D7FB400F915EE /* Explore */,
+				72791A8C2C7D7F8400F915EE /* Feed */,
+				72791A7E2C7D686100F915EE /* Root */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -153,10 +158,32 @@
 		72791A842C7D704B00F915EE /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
-				72791A852C7D706100F915EE /* TextFieldModifier.swift */,
 				72791A872C7D717F00F915EE /* ButtonModifier.swift */,
+				72791A852C7D706100F915EE /* TextFieldModifier.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		72791A892C7D7B0700F915EE /* AppTabView */ = {
+			isa = PBXGroup;
+			children = (
+				72791A8A2C7D7B3000F915EE /* AppTabView.swift */,
+			);
+			path = AppTabView;
+			sourceTree = "<group>";
+		};
+		72791A8C2C7D7F8400F915EE /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		72791A8D2C7D7FB400F915EE /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +260,7 @@
 				72791A812C7D68CC00F915EE /* LoginView.swift in Sources */,
 				72791A862C7D706100F915EE /* TextFieldModifier.swift in Sources */,
 				72791A6C2C7D67D300F915EE /* ContentView.swift in Sources */,
+				72791A8B2C7D7B3000F915EE /* AppTabView.swift in Sources */,
 				72791A6A2C7D67D300F915EE /* ThreadsCloneApp.swift in Sources */,
 				72791A832C7D6EB700F915EE /* RegistrationView.swift in Sources */,
 			);
