@@ -21,6 +21,7 @@
 		72791A972C7D80A100F915EE /* ThreadCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A962C7D80A100F915EE /* ThreadCreationView.swift */; };
 		72791A9B2C7D80C600F915EE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A9A2C7D80C600F915EE /* ActivityView.swift */; };
 		72791A9F2C7D80E400F915EE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791A9E2C7D80E400F915EE /* ProfileView.swift */; };
+		72791AA12C7D9AF900F915EE /* ThreadItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72791AA02C7D9AF900F915EE /* ThreadItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		72791A962C7D80A100F915EE /* ThreadCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCreationView.swift; sourceTree = "<group>"; };
 		72791A9A2C7D80C600F915EE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		72791A9E2C7D80E400F915EE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		72791AA02C7D9AF900F915EE /* ThreadItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				72791A922C7D802D00F915EE /* FeedView.swift */,
+				72791AA02C7D9AF900F915EE /* ThreadItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				72791A812C7D68CC00F915EE /* LoginView.swift in Sources */,
 				72791A9F2C7D80E400F915EE /* ProfileView.swift in Sources */,
 				72791A862C7D706100F915EE /* TextFieldModifier.swift in Sources */,
+				72791AA12C7D9AF900F915EE /* ThreadItemView.swift in Sources */,
 				72791A6C2C7D67D300F915EE /* ContentView.swift in Sources */,
 				72791A8B2C7D7B3000F915EE /* AppTabView.swift in Sources */,
 				72791A6A2C7D67D300F915EE /* ThreadsCloneApp.swift in Sources */,
