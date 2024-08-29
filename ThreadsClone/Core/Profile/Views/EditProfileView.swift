@@ -37,7 +37,7 @@ struct EditProfileView: View {
                     VStack (alignment: .leading) {
                         Text("Bio")
                             .fontWeight(.semibold)
-                        TextField("Enter your bio", text: $bio)
+                        TextField("Enter your bio", text: $bio, axis: .vertical)
                     }
                     
                     Divider()
